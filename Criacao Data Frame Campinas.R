@@ -13,7 +13,7 @@ censo_campinas_2021 <- subset.data.frame(censo, NO_MUNICIPIO == 'Campinas')
 censo <- data.frame(read.csv("microdados_ed_basica_2020.csv", header = TRUE, sep = ";"))
 censo_campinas_2020 <- subset.data.frame(censo, NO_MUNICIPIO == 'Campinas')
 
-censo <- data.frame(read.csv("microdados_ed_basica_2021.csv", header = TRUE, sep = ";"))
+censo <- data.frame(read.csv("microdados_ed_basica_2019.csv", header = TRUE, sep = ";"))
 censo_campinas_2019 <- subset.data.frame(censo, NO_MUNICIPIO == 'Campinas')
 
 
